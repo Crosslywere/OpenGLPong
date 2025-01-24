@@ -1,10 +1,11 @@
 .vs/
 .vscode/
 Binary/
-lib/
+libs/
 obj/
 *.sln
 **.vcxproj*
 **.exe
 **.lib
 **.pdb
+**.idb
