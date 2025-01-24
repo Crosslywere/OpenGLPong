@@ -1,0 +1,10 @@
+.vs/
+.vscode/
+Binary/
+lib/
+obj/
+*.sln
+**.vcxproj*
+**.exe
+**.lib
+**.pdb
