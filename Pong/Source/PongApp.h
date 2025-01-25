@@ -5,17 +5,12 @@
 
 namespace Pong {
 
-	struct Shader {
-
-	};
-
-	class App {
-	public:
-		static bool Init();
-		static void GameLoop();
-		static void DeInit();
-	private:
-		static GLFWwindow* sWindow;
-	};
+	namespace App {
+		/// <summary>Initialize the window and opengl</summary>
+		/// <returns>true on success; false otherwise</returns>
+		bool Init();
+		/// <summary>Runs the application's main loop</summary>
+		void GameLoop();
+	}
 
 }

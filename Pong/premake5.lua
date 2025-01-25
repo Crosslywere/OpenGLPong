@@ -23,6 +23,11 @@ project "Pong"
 	targetdir "%{wks.location}/Binary/%{cfg.buildcfg}"
 	objdir "obj/%{cfg.buildcfg}"
 
+	filter "system:windows"
+		defines {
+			"PONG_WINDOWS"
+		}
+
 	filter "configurations:Debug"
 		kind "ConsoleApp"
 		runtime "Debug"
